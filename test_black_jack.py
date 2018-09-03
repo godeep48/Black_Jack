@@ -1,3 +1,4 @@
+#Ask for various questions
 class Ask():
     def __init__(self,user_option="h",cash="1000",coin="100",answer="yes"):
         self.user_option=user_option
@@ -28,13 +29,10 @@ class Ask():
                 break
             except:
                 print("Enter a valid integer amount")
-    
-
-                
+                 
 ask = Ask()
 
-
-
+#Bet determines lose or win
 class Bet():
     def __init__(self,cash,coin):
         self.cash=cash
@@ -193,8 +191,9 @@ class Play():
             print("You lose the match")
             bet.bet_lose()
             
-
-
+#Black Jack game strating here
+print("Welcome to Black Jack game")
+            
 ask = Ask()
 ask.ask_cash()
 ask.ask_coin()
