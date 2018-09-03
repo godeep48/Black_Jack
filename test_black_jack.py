@@ -160,6 +160,7 @@ class Turn():
             elif score.player_score>21:
                 turn.dealers_turn()
                 break
+
 class Play():
     def __init__(self):
         pass
