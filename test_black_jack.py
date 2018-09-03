@@ -12,7 +12,6 @@ class Ask():
                 break
             except:
                 print("Invalid option. Please try again")
-            
     
     def ask_cash(self):
         while True:
@@ -29,7 +28,6 @@ class Ask():
                 break
             except:
                 print("Enter a valid integer amount")
-                 
 ask = Ask()
 
 #Bet determines lose or win
@@ -134,7 +132,6 @@ class Deal():
         score.dealer_hit_hidden()
         score.dealer_hit()
         
-
 #Start the Dealers turn
 class Turn():
     def __init__(self):
@@ -163,7 +160,6 @@ class Turn():
             elif score.player_score>21:
                 turn.dealers_turn()
                 break
-
 class Play():
     def __init__(self):
         pass
